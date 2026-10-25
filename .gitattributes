@@ -1,0 +1,3 @@
+# Both machines append to the log; union-merge so they never conflict.
+tracker/progress.log text eol=lf merge=union
+*.sh text eol=lf
