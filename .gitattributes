@@ -2,3 +2,4 @@
 tracker/progress.log text eol=lf merge=union
 *.sh text eol=lf
 notes/** text eol=lf merge=union
+*.py text eol=lf
