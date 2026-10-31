@@ -2,12 +2,14 @@
 
 int main()
 {
-    std::cout << "enter a number:";
+    std::cout << "Enter a number: ";
 
     int x{};
     std::cin >> x;
+    std::cout << "Enter another number: ";
     int y{};
     std::cin >> y;
+    std::cout << "Enter another number: ";
     int z{};
     std::cin >> z;
 

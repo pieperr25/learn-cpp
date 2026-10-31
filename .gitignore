@@ -8,6 +8,8 @@ cmake-build-*/
 *.exe
 *.o
 *.obj
+*.dSYM/
+/function_testing
 *.pdb
 *.ilk
 a.out
