@@ -21,6 +21,9 @@ These are learning exercises in progress. Each executable is a separate program.
 New files appear here when they are pushed, with no manual index to maintain.
 Headers live in [`include/`](include/).
 
+The two-file exercise, [`dual_file1.cpp`](dual_file1.cpp) and
+[`dual_file2.cpp`](dual_file2.cpp), builds together as `app`.
+
 ## Build
 
 You need CMake 3.15 or newer and a C++17 compiler (GCC, Clang, or MSVC).
@@ -39,6 +42,7 @@ Run an exercise on macOS or Linux:
 ```sh
 ./build/function_testing
 ./build/console_input_output
+./build/app
 ```
 
 With the default Visual Studio generator on Windows (PowerShell):
@@ -46,6 +50,7 @@ With the default Visual Studio generator on Windows (PowerShell):
 ```powershell
 .\build\Debug\function_testing.exe
 .\build\Debug\console_input_output.exe
+.\build\Debug\app.exe
 ```
 
 ## Adding an exercise
@@ -56,7 +61,7 @@ Save headers in `include/`; programs can use `#include "header_name.h"`.
 Then commit and push as usual. No CMake edits or README updates are needed for
 new standalone exercises.
 
-Each top-level `.cpp` is a complete program. When an exercise grows into a project
+Each top-level `.cpp` in `src/` is a complete program. When an exercise grows into a project
 with several `.cpp` files sharing one `main()`, give that project its own folder and
 explicit CMake target; those files should be built together.
 
