@@ -1,4 +1,4 @@
-
+#pragma once
 
 int readNumber();
-int writeAnswer(int num);
+void writeAnswer(int num);
