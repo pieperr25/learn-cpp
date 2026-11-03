@@ -7,9 +7,12 @@ set(CMAKE_CXX_EXTENSIONS OFF)
 
 # Both files belong to one program: only dual_file1.cpp defines main().
 add_executable(app
-    dual_file1.cpp
-    dual_file2.cpp
+    lesson-2_final-1.cpp
+    io.cpp
+    io.h
 )
+
+
 
 # Each top-level source in src/ is a standalone exercise with its own main().
 # Discovery is intentional so new exercises need no build-list maintenance.

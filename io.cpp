@@ -1,0 +1,15 @@
+#include <iostream>
+
+int readNumber()
+{
+    std::cout << "Enter a number: ";
+    int num{};
+    std::cin >> num;
+
+    return num;
+}
+
+void writeAnswer(int num)
+{
+    std::cout << "The number is: " << num;
+}
