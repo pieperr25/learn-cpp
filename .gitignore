@@ -10,6 +10,7 @@ cmake-build-*/
 *.obj
 *.dSYM/
 /function_testing
+/dual_file1
 *.pdb
 *.ilk
 a.out
