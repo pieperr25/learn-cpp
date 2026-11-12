@@ -1,5 +1,5 @@
 # Both machines append to the log; union-merge so they never conflict.
 tracker/progress.log text eol=lf merge=union
 *.sh text eol=lf
-notes/** text eol=lf merge=union
+written-progress/** text eol=lf merge=union
 *.py text eol=lf
