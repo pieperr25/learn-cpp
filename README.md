@@ -11,7 +11,6 @@ It records small exercises and my learning notes as I build a foundation in C++1
 - Functions, parameters, and return values.
 - A [header declaration and include guard](include/add.h) (declaration practice; the function is not implemented yet).
 - [Learning notes](written-progress/) from my practice sessions.
-- A [Python practice tracker](tracker/README.md) with Mac and Windows setup scripts.
 
 These are learning exercises in progress. Each executable is a separate program.
 
@@ -75,4 +74,4 @@ and Windows. The badge above shows the build status of `main`.
 These checks verify compilation and linking; they do not verify interactive program behavior.
 
 The repository does not require a separate progress report or manual exercise index.
-Learning notes and the practice tracker are independent of the build checks.
+Learning notes are independent of the build checks.
